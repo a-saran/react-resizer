@@ -1,0 +1,23 @@
+.resizer-container {
+  width: 100vw;
+  height: 100vh;
+  border: 5px solid red;
+}
+
+.resize-section {
+}
+
+.resizer {
+  width: 10px;
+  background: coral;
+  cursor: col-resize;
+}
+
+.resize-section.first {
+  width: calc(50% - 5px);
+  background-color: blueviolet;
+}
+.resize-section.second {
+  width: calc(50% - 5px);
+  background-color: cadetblue;
+}
